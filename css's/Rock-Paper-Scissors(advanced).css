@@ -1,0 +1,46 @@
+body{
+  height: 500px;
+  font-family: arial;
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+img{
+  height: 50px;
+}
+.game-button{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border: 3px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.result{
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.score{
+  margin-top: 60px;
+}
+.auto-play-button,
+.reset-score-button{
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.reset-score-confirmation-yes{
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.reset-score-confirmation-no{
+  background-color: darkred;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
